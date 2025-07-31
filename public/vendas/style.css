@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 30px;
+}
+
+label,
+select,
+input {
+  display: block;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 6px 12px;
+  margin-right: 10px;
+}
+
+.valor {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+#mensagem {
+  margin-top: 15px;
+  font-weight: bold;
+  color: green;
+}
+
+#resultadoBusca {
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: blue;
+}
+
+#carrinho {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 10px;
+}
+

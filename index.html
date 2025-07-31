@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mercearia</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Mercearia</h1>
+
+    <form id="produto-form">
+      <input type="text" id="nome" placeholder="Nome do produto" required />
+      <input type="number" id="preco" placeholder="Preço" step="0.01" required />
+      <input type="number" id="quantidade" placeholder="Quantidade" required />
+      <button type="submit">Adicionar</button>
+    </form>
+
+    <ul id="lista-produtos"></ul>
+  </div>
+
+  <br>
+
+  <a href="./vendas/vendas.html">Vender</a>
+
+  <script src="main.js"></script>
+</body>
+</html>
